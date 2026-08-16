@@ -1,0 +1,40 @@
+﻿id,name,building,floor_hint,category,address,lat,lng,hours_source
+college-1f,College Library — 1F Collaborative,Helen C. White Hall,1F,library,"600 N Park St, Madison, WI 53706",43.0765446,-89.4014316,libcal
+college-3n,College Library — 3F North Quiet,Helen C. White Hall,3F North,library,"600 N Park St, Madison, WI 53706",43.0765446,-89.4014316,libcal
+college-2191,College Library — Room 2191,Helen C. White Hall,2F,library,"600 N Park St, Madison, WI 53706",43.0765446,-89.4014316,libcal
+memorial-reading,Memorial Library — Reading Room,Memorial Library,1F,library,"728 State St, Madison, WI 53706",43.0754340,-89.3978670,libcal
+memorial-cages,Memorial Library — Stacks & Cages,Memorial Library,4F–6F,library,"728 State St, Madison, WI 53706",43.0754340,-89.3978670,libcal
+steenbock-main,Steenbock Library — Main Floor,Steenbock Memorial Library,1F,library,"550 Babcock Dr, Madison, WI 53706",43.0762593,-89.4131094,libcal
+steenbock-upper,Steenbock Library — Upper Alcoves,Steenbock Memorial Library,2F,library,"550 Babcock Dr, Madison, WI 53706",43.0762593,-89.4131094,libcal
+wendt-top,Wendt Commons — Top Floor,Kurt F. Wendt Commons,4F,library,"215 N Randall Ave, Madison, WI 53715",43.0716810,-89.4087205,libcal
+wendt-lower,Wendt Commons — Lower Floors,Kurt F. Wendt Commons,1F–2F,library,"215 N Randall Ave, Madison, WI 53715",43.0716810,-89.4087205,libcal
+business-lib,Business Library,Grainger Hall,2F,library,"975 University Ave, Madison, WI 53715",43.0723810,-89.4019271,libcal
+grainger-cafe,Grainger Café Area,Grainger Hall,1F,academic,"975 University Ave, Madison, WI 53715",43.0723810,-89.4019271,manual
+ebling,Ebling Library,Health Sciences Learning Center,2F,library,"750 Highland Ave, Madison, WI 53705",43.0774041,-89.4303294,libcal
+law-lib,Law Library,UW Law School,,library,"975 Bascom Mall, Madison, WI 53706",43.0744230,-89.4021140,libcal
+kohler-art,Kohler Art Library,Chazen Museum of Art,,library,"750-800 University Ave, Madison, WI 53706",43.0736499,-89.3989253,libcal
+merit,MERIT Library,Teacher Education Building,3F,library,"225 N Mills St, Madison, WI 53715",43.0712971,-89.4035968,libcal
+whs-reading,Wisconsin Historical Society Reading Room,Wisconsin Historical Society,2F,library,"816 State St, Madison, WI 53706",43.0754020,-89.4000540,manual
+math-lib,Math Library,Van Vleck Hall,,library,"480 Lincoln Dr, Madison, WI 53706",43.0747424,-89.4045057,libcal
+memu-rath,Memorial Union — Der Rathskeller,Memorial Union,1F,union,"800 Langdon St, Madison, WI 53706",43.0762475,-89.4000123,manual
+memu-library,Memorial Union — Browsing Library,Memorial Union,2F,union,"800 Langdon St, Madison, WI 53706",43.0762475,-89.4000123,manual
+south-sett,Union South — The Sett,Union South,1F,union,"1308 W Dayton St, Madison, WI 53715",43.0719999,-89.4076464,manual
+south-lounge,Union South — Upper Lounges,Union South,2F,union,"1308 W Dayton St, Madison, WI 53715",43.0719999,-89.4076464,manual
+red-gym,Red Gym Study Areas,Red Gym,,academic,"716 Langdon St, Madison, WI 53706",43.0760709,-89.3984119,manual
+cs-lounge,Computer Sciences Building Lounge,Computer Sciences Building,1F,academic,"1210 W Dayton St, Madison, WI 53706",43.0731808,-89.4061177,manual
+discovery-town,Discovery Building — Town Center,Discovery Building,1F,academic,"330 N Orchard St, Madison, WI 53715",43.0728960,-89.4075586,manual
+ecb,Engineering Centers Building Atrium,Engineering Centers Building,1F,academic,"1550 Engineering Dr, Madison, WI 53706",43.0727247,-89.4134167,manual
+chem-atrium,Chemistry Building Atrium,Chemistry Building,1F,academic,"1101 University Ave, Madison, WI 53706",43.0730641,-89.4044277,manual
+edsci,Educational Sciences Commons,Educational Sciences,1F,academic,"1025 W Johnson St, Madison, WI 53706",43.0719198,-89.4034558,manual
+nancy-nicholas,Nancy Nicholas Hall Commons,Nancy Nicholas Hall,1F,academic,"1300 Linden Dr, Madison, WI 53706",43.0757388,-89.4087644,manual
+humanities,Mosse Humanities Courtyard Level,George L. Mosse Humanities Building,,academic,"455 N Park St, Madison, WI 53706",43.0741703,-89.4000444,manual
+vilas,Vilas Hall Commons,Vilas Communication Hall,,academic,"821 University Ave, Madison, WI 53706",43.0726995,-89.3998600,manual
+van-hise,Van Hise Hall Upper Floors,Van Hise Hall,,academic,"1220 Linden Dr, Madison, WI 53706",43.0753512,-89.4064607,manual
+upper-house,Upper House,Upper House,2F,other,"365 E Campus Mall Ste 200, Madison, WI 53715",43.0727855,-89.3989374,manual
+colectivo-state,Colectivo Coffee — State St,Colectivo Coffee,,cafe,"583 State St, Madison, WI 53703",43.0747558,-89.3955037,manual
+fair-trade,Fair Trade Coffee House,Fair Trade Coffee House,,cafe,"418 State St, Madison, WI 53703",43.0749218,-89.3920072,manual
+steep-brew,Steep & Brew — State St,Steep & Brew,,cafe,"544 State St, Madison, WI 53703",43.0750410,-89.3945144,manual
+bradburys,Bradbury's Coffee,Bradbury's Coffee,,cafe,"127 N Hamilton St, Madison, WI 53703",43.0772927,-89.3838969,manual
+leopolds,Leopold's Books Bar Caffè,Leopold's Books Bar Caffè,,cafe,"1301 Regent St, Madison, WI 53715",43.0674123,-89.4075720,manual
+morgridge,Morgridge Hall Commons,Morgridge Hall,1F,academic,,,,manual
+madison-central,Madison Central Public Library,Madison Public Library,,other,"201 W Mifflin St, Madison, WI 53703",,,manual

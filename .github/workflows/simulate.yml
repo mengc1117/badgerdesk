@@ -1,0 +1,26 @@
+# Hourly simulated activity following realistic daily patterns (see
+# scripts/simulate.mjs and the README's honesty note). Keeps the demo map
+# colored and "reported 15 min ago" alive at any hour a recruiter opens it.
+# Requires a repository variable DEPLOY_URL.
+name: Simulate activity
+
+on:
+  schedule:
+    - cron: '17 * * * *'
+  workflow_dispatch:
+
+jobs:
+  simulate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Post simulated reports
+        run: |
+          if [ -z "${{ vars.DEPLOY_URL }}" ]; then
+            echo "DEPLOY_URL repository variable not set — skipping."
+            exit 0
+          fi
+          node scripts/simulate.mjs --url "${{ vars.DEPLOY_URL }}" --burst 8

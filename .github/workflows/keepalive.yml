@@ -1,0 +1,21 @@
+# Supabase pauses free projects after ~7 days without requests.
+# Ping the live endpoint every 3 days so the demo never goes to sleep.
+# Requires a repository variable DEPLOY_URL (Settings → Secrets and variables → Actions → Variables).
+name: Keep-alive
+
+on:
+  schedule:
+    - cron: '0 9 */3 * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping /api/live
+        run: |
+          if [ -z "${{ vars.DEPLOY_URL }}" ]; then
+            echo "DEPLOY_URL repository variable not set — skipping."
+            exit 0
+          fi
+          curl -sf "${{ vars.DEPLOY_URL }}/api/live" -o /dev/null && echo "alive"
