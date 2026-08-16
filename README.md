@@ -2,7 +2,7 @@
 
 BadgerDesk is a real-time study-spot finder for the UW–Madison campus. It maps 39 locations and combines anonymous reports into live crowd and noise estimates, alongside crowdsourced amenity data such as outlets, group rooms, quiet zones, and natural light.
 
-**Live demo:** `https://your-project.vercel.app`
+**Live demo:** `https://badgerdesk.vercel.app/`
 
 ## Highlights
 
